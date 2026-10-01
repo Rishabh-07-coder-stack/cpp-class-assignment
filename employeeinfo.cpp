@@ -20,7 +20,14 @@ id=eid;
 name=ename;
 salary=esalary;
 bonus=ebonus;
-};
+}
+employee(const employee &obj)
+{
+id=obj.id;
+name=obj.name;
+salary=obj.salary;
+bonus=obj.bonus;
+}
 void totalsalary()
 {tsalary=salary+bonus;
 }
